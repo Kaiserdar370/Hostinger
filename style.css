@@ -73,28 +73,29 @@ p {
     display: flex;
     justify-content: space-between;
     margin: 20px 0;
-    gap: 15px; /* Add gap for spacing between boxes */
+    gap: 10px; /* Reduce gap to prevent overflow */
+    width: 100%; /* Make countdown fit within card width */
 }
 
 .countdown div {
     text-align: center;
     color: #4a3f77;
     background-color: #fff;
-    border-radius: 10px; /* Make countdown squares rounded */
-    padding: 20px; /* Increase padding for more space */
-    min-width: 80px; /* Increase width for better spacing */
+    border-radius: 10px;
+    padding: 10px; /* Reduce padding for better fit */
+    width: 75px; /* Fixed width for consistent layout */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Light shadow */
 }
 
 .countdown span {
-    font-size: 2rem; /* Increase font size for better visibility */
+    font-size: 1.5rem; /* Reduce font size to fit boxes */
     font-weight: bold;
     color: #4a3f77;
 }
 
 .countdown small {
     display: block;
-    font-size: 0.9rem; /* Slightly increase font size */
+    font-size: 0.8rem;
     color: #4a3f77;
 }
 
@@ -132,8 +133,17 @@ p {
         font-size: 1rem;
     }
 
+    .countdown {
+        gap: 5px; /* Further reduce gap for smaller screens */
+    }
+
+    .countdown div {
+        padding: 8px;
+        width: 65px; /* Smaller boxes for mobile */
+    }
+
     .countdown span {
-        font-size: 1.5rem;
+        font-size: 1.3rem;
     }
 
     .countdown small {
@@ -145,3 +155,4 @@ p {
         padding: 12px;
     }
 }
+
