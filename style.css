@@ -6,8 +6,8 @@
 }
 
 body {
-    font-family: 'Poppins', sans-serif; /* Using Poppins font as per your requirement */
-    background-color: #f5f5ff;
+    font-family: 'Poppins', sans-serif; /* Use Poppins font */
+    background-color: #f5f5ff; /* Light lavender background */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -23,33 +23,34 @@ body {
 
 /* Offer Card Styling */
 .offer-card {
-    background-color: #e7e0f9; /* Matching card background color */
-    border-radius: 15px;
-    padding: 30px;
+    background-color: #e7e0f9; /* Soft lavender color for the card */
+    border-radius: 20px; /* More rounded corners */
+    padding: 40px 30px; /* Increase padding for better spacing */
     max-width: 400px;
     width: 100%;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    border: 2px solid #d3cce3; /* Slight border */
     position: relative;
     margin: 0 auto;
     transition: transform 0.3s ease-in-out;
-    border: 2px solid #d3cce3; /* Adding a slight border similar to the image */
 }
 
 /* Hover Effect for Card */
 .offer-card:hover {
-    transform: scale(1.05);
+    transform: scale(1.05); /* Slightly enlarge on hover */
 }
 
 /* Heading and Text Styles */
 h2 {
-    color: #4a3f77; /* Darker purple matching the image text color */
-    font-size: 1.5rem;
+    color: #4a3f77; /* Darker purple for text */
+    font-size: 1.7rem;
     font-weight: 600;
+    margin-bottom: 15px; /* Add spacing below heading */
 }
 
 p {
     color: #4a3f77;
-    font-size: 1rem;
+    font-size: 1.1rem; /* Slightly larger for better readability */
     margin: 10px 0;
 }
 
@@ -78,10 +79,10 @@ p {
     text-align: center;
     color: #4a3f77;
     background-color: #fff;
-    border-radius: 10px; /* Make the squares rounded */
-    padding: 10px;
-    min-width: 70px; /* Set the minimum width to keep all squares uniform */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a slight shadow to the boxes */
+    border-radius: 10px; /* Make countdown squares rounded */
+    padding: 15px;
+    min-width: 75px; /* Increase width for better spacing */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Light shadow */
 }
 
 .countdown span {
@@ -99,20 +100,20 @@ p {
 /* Claim Button */
 .claim-button {
     display: block;
-    background-color: #6c5ce7; /* Matching button color */
+    background-color: #6c5ce7; /* Vivid purple for button */
     color: #fff;
-    padding: 12px 20px;
-    border-radius: 5px;
+    padding: 15px;
+    border-radius: 10px;
     text-decoration: none;
     font-weight: bold;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     transition: background-color 0.3s ease-in-out, transform 0.3s;
     margin-top: 20px;
 }
 
 .claim-button:hover {
     background-color: #5b4fc4;
-    transform: scale(1.05);
+    transform: scale(1.05); /* Slight enlarge on hover */
 }
 
 /* Media Queries for Mobile Responsiveness */
@@ -123,15 +124,15 @@ p {
     }
 
     h2 {
-        font-size: 1.3rem;
+        font-size: 1.5rem;
     }
 
     p {
-        font-size: 0.9rem;
+        font-size: 1rem;
     }
 
     .countdown span {
-        font-size: 1.4rem;
+        font-size: 1.5rem;
     }
 
     .countdown small {
@@ -139,7 +140,7 @@ p {
     }
 
     .claim-button {
-        font-size: 1rem;
-        padding: 10px;
+        font-size: 1.1rem;
+        padding: 12px;
     }
 }
