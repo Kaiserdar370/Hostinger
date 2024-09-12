@@ -77,16 +77,23 @@ p {
 .countdown div {
     text-align: center;
     color: #4a3f77;
+    background-color: #fff;
+    border-radius: 10px; /* Make the squares rounded */
+    padding: 10px;
+    min-width: 70px; /* Set the minimum width to keep all squares uniform */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a slight shadow to the boxes */
 }
 
 .countdown span {
     font-size: 1.8rem;
     font-weight: bold;
+    color: #4a3f77;
 }
 
 .countdown small {
     display: block;
     font-size: 0.8rem;
+    color: #4a3f77;
 }
 
 /* Claim Button */
