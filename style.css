@@ -73,6 +73,7 @@ p {
     display: flex;
     justify-content: space-between;
     margin: 20px 0;
+    gap: 15px; /* Add gap for spacing between boxes */
 }
 
 .countdown div {
@@ -80,20 +81,20 @@ p {
     color: #4a3f77;
     background-color: #fff;
     border-radius: 10px; /* Make countdown squares rounded */
-    padding: 15px;
-    min-width: 75px; /* Increase width for better spacing */
+    padding: 20px; /* Increase padding for more space */
+    min-width: 80px; /* Increase width for better spacing */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Light shadow */
 }
 
 .countdown span {
-    font-size: 1.8rem;
+    font-size: 2rem; /* Increase font size for better visibility */
     font-weight: bold;
     color: #4a3f77;
 }
 
 .countdown small {
     display: block;
-    font-size: 0.8rem;
+    font-size: 0.9rem; /* Slightly increase font size */
     color: #4a3f77;
 }
 
